@@ -1,4 +1,26 @@
 # Implement queue using deque
+'''
+Python offers a double-ended queue (deque) to act as a stack/queue. It has some great built-in features:
+
+O(1) appends and pops to both ends of the queue
+Implemented using a doubly-linked list
+Indexing (new in Python 3.5)
+Append (aka push) and pop from both sides of the queue
+Reverse in place
+Import the deque module and instantiate a shiny new data structure:
+
+from collections import deque
+
+myDeque = deque()
+Instant stack implementation:
+
+myDeque.append(val) to push
+return myDeque.pop() to pop
+Instant queue implementation:
+
+myDeque.append(val) to enqueue
+return myDeque.popleft() to dequeue
+'''
 
 from collections import deque
 
